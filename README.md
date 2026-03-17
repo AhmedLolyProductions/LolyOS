@@ -1,2 +1,4 @@
 # LolyOS
 A simple funny and buggy python based OS
+Yes, you may take it, edit, publish, I don't care
+Here's the link to run it in the browser (via trinket.io): https://trinket.io/python3/dd68be13c67c
