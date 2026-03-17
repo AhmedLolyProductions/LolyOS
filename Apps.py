@@ -9,8 +9,6 @@ def App_List():
     time.sleep(0.2)
     print("Shutdown")
     time.sleep(0.2)
-    print("Calculator.exe")
-    time.sleep(0.2)
     print("cmd.exe")
     time.sleep(0.2)
     print("virus.exe")
@@ -21,9 +19,6 @@ def App_List():
     
     if App_Chosen in ['cmd.exe', 'cmd']:
       cmd()
-    
-    elif App_Chosen in ['calc', 'calculator.exe', 'calc.exe', 'calculator', 'Calculator', 'Calculator.exe']:
-      Calc()
     
     elif App_Chosen in ['shutdown', 'shutdown.exe', 'Shutdown', 'Shutdown.exe']:
       import Logout
@@ -55,7 +50,7 @@ def App_List():
 def cmd():
   print("\n" * 41)
   time.sleep(3)
-  print("Hello! This is the command prompt where you can run commands")
+  print("cmd made by MicroLoly")
   time.sleep(0.4)
   print("To exit cmd, enter quit or exit")
   
@@ -82,6 +77,12 @@ def cmd():
       print("folder: admin")
       time.sleep(0.2)
       print("program: virus.exe")
+      
+          if Command_Input in ['LolyOS', 'lolyos', 'system', 'user', 'admin']:
+            print("Insufficient rights")
+
+          elif Command_Input == 'virus' or 'virus.exe':
+            import Virus
     
     elif Command_Input == '':
       Command_Input = input("admin:/ $")
@@ -89,20 +90,4 @@ def cmd():
     else:
       if Command_Input:
         print("Invalid command")
-def Calc():
-  while True:
-    print("\n" * 41)
-    print("Sorry, but calulator is under construction! Math equations entered will not work")
-    time.sleep(0.3)
-    print("To exit the calculator, enter quit or exit")
-    time.sleep(0.3)
-    User_Input = input()
-    
-    if User_Input in ['quit', 'exit', 'Quit', 'Exit']:
-      print("\n" * 41)
-      App_List()
-    
-    else:
-      print("Invalid equation or command")
-      print("\n")
       User_Input = input()
