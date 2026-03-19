@@ -5,7 +5,7 @@ import sys
 def App_List():
   counter = 0
   while True:
-    print("Choose an app to excecute")
+    print("Choose an app or function to excecute")
     time.sleep(0.2)
     print("Shutdown")
     time.sleep(0.2)
@@ -48,9 +48,9 @@ def App_List():
 def cmd():
   print("\n" * 41)
   time.sleep(3)
-  print("cmd made by MicroLoly")
+  print("cmd by MicroLoly")
   time.sleep(0.4)
-  print("To exit cmd, enter quit or exit")
+  print("To exit cmd, enter 'quit' or 'exit'")
   
   empty_line_count = 0
   
