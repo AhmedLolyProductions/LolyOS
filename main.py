@@ -3,6 +3,7 @@ import time
 #User Notes:
   #The password is password
   #The password can be changed in Startup.py > Password() > <settings>
+  #To begin installation media instead of normal boot, set the Installation variable to 1
 
 def Install():
   print("Please select an installation media to begin")
@@ -44,7 +45,7 @@ def Install():
     import Logout
   
   elif Media_Option == '4':
-    print("UEFI options have been disabled by your administrator, restarting to available OS")
+    print("Error: There is no such thing as 'UEFI', restarting to available OS")
     time.sleep(1)
     print(".")
     time.sleep(1)
