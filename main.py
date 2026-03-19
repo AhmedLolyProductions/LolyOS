@@ -27,8 +27,18 @@ def Install():
     time.sleep(4)
     print("Estimated time until completion: 3000 decades")
     time.sleep(6)
-    print("Installation sucess, to restart to the OS, turn off the installation setup in main.py > BIOS()")
-    print("Then restart the machine")
+    print("Installation sucess")
+    print("Note: Turn off the installation setup in main.py > BIOS()")
+    time.sleep(0.5)
+    print("Restarting to newly installed OS")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    import Startup
   
   elif Media_Option == '2':
     print("Installing...")
