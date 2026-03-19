@@ -3,10 +3,7 @@ import time
 #User Notes:
   #The password is password
   #The password can be changed in Startup.py > Password() > <settings>
-  #This python project has been abandoned and will no longer recieve updates
 
-#Project Notes:
-  #This python project has been abandoned and will no longer recieve updates
 def Install():
   print("Please select an installation media to begin")
   time.sleep(0.2)
