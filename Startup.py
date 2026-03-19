@@ -130,3 +130,4 @@ def Startup():
         print("Too many invalid inputs, shutting down...")
         time.sleep(1)
         import Logout
+Startup()
