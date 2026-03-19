@@ -13,8 +13,6 @@ def App_List():
     time.sleep(0.2)
     print("virus.exe")
     time.sleep(0.2)
-    print("Shutdown")
-    time.sleep(0.2)
     App_Chosen = input("admin:/")
     
     if App_Chosen in ['cmd.exe', 'cmd']:
