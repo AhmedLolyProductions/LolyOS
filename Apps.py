@@ -76,11 +76,11 @@ def cmd():
       time.sleep(0.2)
       print("program: virus.exe")
       
-        if Command_Input in ['LolyOS', 'lolyos', 'system', 'user', 'admin']:
-          print("Insufficient rights")
+      if Command_Input in ['LolyOS', 'lolyos', 'system', 'user', 'admin']:
+        print("Insufficient rights")
 
-        elif Command_Input == 'virus' or 'virus.exe':
-          import Virus
+      elif Command_Input == 'virus' or 'virus.exe':
+        import Virus
     
     elif Command_Input == '':
       Command_Input = input("admin:/ $")
