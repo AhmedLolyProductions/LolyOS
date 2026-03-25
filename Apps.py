@@ -31,16 +31,16 @@ def App_List():
       time.sleep(2)
       import Virus
     
-    elif App_Chosen in ['shutdown', 'Shutdown', 'quit', 'exit']:
+    elif App_Chosen in ['shutdown', 'Shutdown']:
       import Logout
     
     else:
       if counter < 7:
         print("Too many invalid inputs")
         time.sleep(2)
-        print("Shutting down")
+        print("A fatal error has been downloaded from error.com")
         time.sleep(1)
-        import Logout
+        import Virus
       print("\n")
       print("Invalid program, try again")
       time.sleep(0.2)
