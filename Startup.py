@@ -5,11 +5,11 @@ import sys
 def Greeting():
   #<settings>
   Greeting_Status = 2
+  Custom = "Logging In..." #2
+  #</settings>
   Logging = "Logging On..." #1
   Loading = "Loading..." #0.5
   Empty = "" #0
-  Custom = "Logging In..." #2
-  #</settings>
   
   now = datetime.now()
   Current_Time = now.strftime("%a %b %d, %Y at %I:%M:%S %p") #docs.python.org/3/library/datetime.html#format-codes
