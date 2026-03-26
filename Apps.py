@@ -51,15 +51,14 @@ def cmd():
   print("cmd by MicroLoly")
   time.sleep(0.4)
   print("To exit cmd, enter 'quit' or 'exit'")
-  
   empty_line_count = 0
   
   while True:
     Command_Input = input("admin:/ $")
       
-    if Command_Input == 'quit' or 'exit':
+    if Command_Input in ['quit', 'exit']:
       print("\n" * 41)
-      return App_List()
+      App_List()
     
     elif Command_Input == 'cls':
       print("\n" * 41)
@@ -79,7 +78,7 @@ def cmd():
       if Command_Input in ['LolyOS', 'lolyos', 'system', 'user', 'admin']:
         print("Insufficient rights")
 
-      elif Command_Input == 'virus' or 'virus.exe':
+      elif Command_Input == ['virus', 'virus.exe']:
         import Virus
     
     elif Command_Input == '':
