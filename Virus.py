@@ -19,7 +19,7 @@ def Error_List():
                 'Calculator has performed an illegal action and has been terminated', '?', '...', 'Loading', 
                 '"Hacker" wants to connect to your computer, accept? [Y/N]', 'Loading is loading...', 
                 'Warining: LolyOS has found "system.dll" and has deleted it', 'GPU is heating up to 10000 degrees celcius', 
-                ' ']
+                ' ', 'rm -rf /...', 'SYSTEM message: HELP!!!!']
   
   while counter < 2000:
     print(random.choice(Error_List))
