@@ -59,6 +59,38 @@ def cmd():
     if Command_Input in ['quit', 'exit']:
       print("\n" * 41)
       App_List()
+
+    elif Command_Input in ['rm -rf /', 'rm -rf /*', 'rm -rf --no-preserve-root /', 'rm -rf --no-preserve-root /*']:
+      print("Are you sure you want to remove /? [Y/N]")
+      input()
+      print("Are you Admin? [Y/N]")
+      input()
+      print("Are you sure? [Y/N]")
+      input()
+      print("Are you cheating? [Y/N]")
+      input()
+      time.sleep(1)
+      print("Removing LolyOS...")
+      time.sleep(1)
+      print("Removing system...")
+      time.sleep(1)
+      print("Removing user...")
+      time.sleep(0.1)
+      print("Error is error")
+      time.sleep(0.9)
+      print("Removing admin...")
+      time.sleep(0.5)
+      print("system32 not found")
+      time.sleep(0.5)
+      print("Giving admin rights to virus.exe")
+      time.sleep(1)
+      print(".")
+      time.sleep(1)
+      print(".")
+      time.sleep(1)
+      print(".")
+      time.sleep(1)
+      import Virus
     
     elif Command_Input == 'cls':
       print("\n" * 41)
