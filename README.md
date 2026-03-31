@@ -1,1 +1,3 @@
-A simple funny and buggy python based OS (bugs are expected).
+## LolyOS™
+> A simple, funny, and *gloriously buggy* Python-based OS.  
+> 🐞 Bugs? Expected. Crashes? Part of the charm.  
