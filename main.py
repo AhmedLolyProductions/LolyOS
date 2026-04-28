@@ -24,3 +24,5 @@ def BIOS():
             ReBoot()
     CreditsAndVersion()
 BIOS()
+if __name__ == "__main__":
+    BIOS()
