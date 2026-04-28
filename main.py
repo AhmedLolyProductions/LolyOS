@@ -24,6 +24,6 @@ def BIOS():
             ReBoot()
     CreditsAndVersion()
 
-# This is from GitHub Copilot (apparently GitHub has issues with the 'input()' function, this block of code is not used for pickcode
+# This block of code is from GitHub Copilot (apparently GitHub has issues with the 'input()' function)
 if __name__ == "__main__":
     BIOS()
