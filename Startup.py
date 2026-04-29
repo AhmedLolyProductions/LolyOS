@@ -11,6 +11,7 @@ def Greeting():
     print(f"Today is {Current_Time}")
     sleep(1.4)
     print("\n")
+    import Apps
 def Password():
     Password = "password"
     counter = 0
