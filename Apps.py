@@ -30,7 +30,7 @@ def About_LolyOS():
     sleep(3)
     print("The old version of LolyOS that's archived is github.com/AhmedLolyProductions/LolyOS-old")
     sleep(3)
-    print("LolyOS v0.0.0-alpha")
+    print("LolyOS v1.0.0")
     sleep(0.6)
     print("To go back to the app list, click 'enter'")
     input()
