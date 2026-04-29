@@ -12,7 +12,7 @@ def App_List():
     sleep(0.5)
     print("virus.exe")
     User_Input = input("admin:/ ").lower()
-    if User_Input 'shutdown':
+    if User_Input == 'shutdown':
         sleep(0.3)
         import Shutdown
     elif User_Input in ['about lolyos', 'lolyos', 'about']:
