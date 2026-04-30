@@ -6,4 +6,4 @@
 > The `index.html` is to run the code in the browser (iframe that loads pickcode.io)<br>
 > The password for LolyOS is "password"
 
-This is the new version of the LolyOS-old repository: https://github.com/AhmedLolyProductions/LolyOS-old
+This is the new version of the LolyOS-old repository: [github.com/AhmedLolyProductions/LolyOS-old](https://github.com/AhmedLolyProductions/LolyOS-old)
