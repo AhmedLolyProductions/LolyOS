@@ -5,7 +5,7 @@ def BIOS():
         sleep(1)
         print("github.com/AhmedLolyProductions")
         sleep(0.5)
-        print("LolyOS v1.0.0")
+        print("LolyOS v1.0.2")
         sleep(2)
         import Startup
     CreditsAndVersion()
