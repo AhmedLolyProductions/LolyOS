@@ -9,6 +9,6 @@ def BIOS():
         sleep(2)
         import Startup
     CreditsAndVersion()
-# This block of code is from GitHub Copilot (apparently GitHub has issues with the 'input()' function)
+# This block of code is from GitHub Copilot (apparently GitHub actions has some wierd needs)
 if __name__ == "__main__":
     BIOS()
