@@ -7,3 +7,7 @@ def BIOS():
   print("LolyOS v1.0.3")
   sleep(2)
   import Startup
+  Startup.Startup()
+
+if __name__ == "__main__":
+  BIOS()
