@@ -1,6 +1,6 @@
-import time
+from time import sleep
 import random
-import sys
+from sys import exit
 from datetime import datetime
 
 now = datetime.now()
@@ -23,15 +23,15 @@ def Error_List():
 
     while counter < 2000:
         print(random.choice(Error_List))
-        time.sleep(0.01)
+        sleep(0.01)
         counter += 1
 
 Error_List()
-time.sleep(1)
+sleep(1)
 print("\n")
 print(Current_Time)
-time.sleep(0.1)
+sleep(0.1)
 print("is the day the user says goodbye to their machine")
-time.sleep(0.1)
+sleep(0.1)
 print("SYSTEM OVERLOAD")
-sys.exit()
+exit()
