@@ -1,5 +1,4 @@
 from time import sleep
-import sys
 
 def App_List():
     print("Choose an app or function to execute")
@@ -30,7 +29,7 @@ def About_LolyOS():
     sleep(3)
     print("The old version of LolyOS that's archived is github.com/AhmedLolyProductions/LolyOS-old")
     sleep(3)
-    print("LolyOS v1.0.2")
+    print("LolyOS v1.0.3")
     sleep(0.6)
     print("To go back to the app list, click 'enter'")
     input()
