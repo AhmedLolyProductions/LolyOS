@@ -91,4 +91,3 @@ def Startup():
             sleep(4)
             print("Warning: Virus.exe has gained")
             import Shutdown
-Startup()
