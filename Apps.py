@@ -51,6 +51,10 @@ def cmd():
             print("dir: display directorys")
             sleep(0.5)
             print("cls: clears the screen")
+        elif Command_Input in ['help', 'exit']:
+            print("\n" * 41)
+            sleep(0.5)
+            App_List()
         elif Command_Input == 'rmdir':
             print("\n" + "please choose a directory to delete; for a list of directorys, type 'dir'")
         elif Command_Input == 'cls':
