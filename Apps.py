@@ -27,7 +27,7 @@ def About_LolyOS():
     sleep(3)
     print("It is maintained at github.com/AhmedLolyProductions/LolyOS")
     sleep(3)
-    print("LolyOS v1.0.3")
+    print("LolyOS v1.1.3")
     sleep(0.6)
     print("To go back to the app list, click 'enter'")
     input()
