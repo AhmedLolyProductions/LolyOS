@@ -51,7 +51,7 @@ def cmd():
             print("dir: display directorys")
             sleep(0.5)
             print("cls: clears the screen")
-        elif Command_Input in ['help', 'exit']:
+        elif Command_Input in ['quit', 'exit']:
             print("\n" * 41)
             sleep(0.5)
             App_List()
