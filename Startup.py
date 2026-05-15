@@ -87,7 +87,6 @@ def Startup():
             import Shutdown
 
         elif counter == 3 and y_n not in ['y', 'Y', 'yes', 'Yes', 'n', 'N', 'No', 'no']:
-            print("Too many invalid inputs, unauthorized anomoly detected")
+            print("Too many invalid inputs, shutting down")
             sleep(4)
-            print("Warning: Virus.exe has gained")
             import Shutdown
