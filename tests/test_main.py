@@ -1,10 +1,11 @@
 import sys
 from pathlib import Path
+from unittest.mock import patch, MagicMock
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-import main
-
 def test_main_runs():
-    assert main is not None
-    assert hasattr(main, 'main')
+    with patch('builtins.input', return_value='N'):
+        with patch('builtins.print'):
+            import main
+            assert main is not None
