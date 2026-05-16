@@ -1,6 +1,6 @@
 from time import sleep
 
-if __name__ == "__main__":
+def main():
   sleep(1)
   print("github.com/AhmedLolyProductions")
   sleep(0.5)
@@ -8,3 +8,5 @@ if __name__ == "__main__":
   sleep(2)
   import Startup
   Startup.Startup()
+if __name__ == "__main__":
+  main()
