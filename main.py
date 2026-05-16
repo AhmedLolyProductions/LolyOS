@@ -1,10 +1,9 @@
 from time import sleep
 
 if __name__ == "__main__":
-  sleep(1)
-  print("github.com/AhmedLolyProductions")
-  sleep(0.5)
-  print("LolyOS v1.1.5")
-  sleep(2)
-  import Startup
-  Startup.Startup()
+    sleep(1)
+    print("github.com/AhmedLolyProductions")
+    sleep(0.5)
+    print("LolyOS v1.1.5")
+    sleep(2)
+    import Startup
