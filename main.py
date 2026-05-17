@@ -7,7 +7,6 @@ def main():
     print("LolyOS v1.1.5")
     sleep(2)
     import Startup
-    Startup.Startup()
 
 if __name__ == "__main__":
     main()
