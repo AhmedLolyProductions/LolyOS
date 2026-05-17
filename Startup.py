@@ -90,3 +90,5 @@ def Startup():
             print("Too many invalid inputs, shutting down")
             sleep(4)
             import Shutdown
+if __name__ == "__main__":
+    Startup()
