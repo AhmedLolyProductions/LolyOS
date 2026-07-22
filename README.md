@@ -5,4 +5,3 @@
 > [!NOTE]
 > - The `index.html` is to run the code in the browser (iframe that loads pickcode.io)<br>
 > - The password for LolyOS is "password"
-> - All .py and .yml files used for GitHub actions are AI-generated
